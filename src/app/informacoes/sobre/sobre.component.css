@@ -1,0 +1,15 @@
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+  }
+  
+  .foto-circulo img {
+    border-radius: 50%;
+  }
+  
+  .info-esquerda, .info-direita {
+    flex: 1;
+  }
+  

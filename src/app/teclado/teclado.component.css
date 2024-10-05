@@ -1,0 +1,23 @@
+.calculator {
+    width: 200px;
+    margin: auto;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;              /* Adiciona um pouco de padding para melhor aparência */
+    margin-bottom: 20px;       /* Espaço entre o input e o teclado */
+    font-size: 18px;           /* Tamanho da fonte do input */
+    width: 100%;               /* Faz o input ocupar toda a largura disponível */
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
